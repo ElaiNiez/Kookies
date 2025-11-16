@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Close modal and redirect back to cart
   okBtn.addEventListener('click', () => {
     modal.style.display = 'none';
-    window.location.href = 'index.html';
+    window.location.href = 'shop.html';
   });
 
   // Back button goes back to cart page

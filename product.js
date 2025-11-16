@@ -32,7 +32,7 @@ function renderCart() {
     // Show simple alert message for empty cart
     alert('Your cart is empty. Please select products to add to your cart.');
     // Optionally, redirect to shop page after alert (uncomment if desired)
-    window.location.href = 'index.html';
+    window.location.href = 'shop.html';
   } else {
     // Render items if cart has content
     cart.forEach((item, idx) => {
@@ -268,5 +268,5 @@ function renderCart() {
 
 // Back button (unchanged)
 document.querySelector('.back-btn').addEventListener('click', () => {
-  window.location.href = 'index.html';
+  window.location.href = 'shop.html';
 });
